@@ -43,6 +43,11 @@
 
       // var_dump($badword);
 
+
+         $arr = explode(" ", $text);
+         var_dump($arr);
+         die();
+
    ?>
    <h3> Il testo è lungo  <?php echo $text_length; ?>  caratteri.</h3>
    <p> <?php  echo str_replace($badword, $censure, $text); ?> </p>
